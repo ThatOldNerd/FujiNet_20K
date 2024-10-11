@@ -1,0 +1,794 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3f4c9c6f-2a2f-4b07-95a4-300eafec0cc9")
+	(paper "A4")
+	(lib_symbols)
+	(bus_alias "Z80_CONTROL"
+		(members "RD" "RW" "IORQ" "MEMRQ" "BUSRQ" "WAIT" "NMI" "ROMCS" "BUSACK"
+			"RESET" "Spare_1" "Spare_2" "Spare_3" "Spare_4" "SYSTEM_READY"
+		)
+	)
+	(junction
+		(at 201.93 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ddcb26b-d3c4-4b69-a36c-04c64ad744d2")
+	)
+	(bus
+		(pts
+			(xy 63.5 120.65) (xy 104.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0613132a-8e03-47e9-98a6-e722914156ec")
+	)
+	(bus
+		(pts
+			(xy 73.66 99.06) (xy 73.66 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c70d41d-bd3e-4c2c-a923-f2b35e293df9")
+	)
+	(bus
+		(pts
+			(xy 63.5 46.99) (xy 191.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145c90f9-b555-4cb7-921c-3d56522301de")
+	)
+	(bus
+		(pts
+			(xy 114.3 127) (xy 114.3 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ed830b-cebb-49b7-bc97-a6e36e16975d")
+	)
+	(bus
+		(pts
+			(xy 63.5 149.86) (xy 73.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdb9c35-279e-4c16-9b62-1394737e78be")
+	)
+	(bus
+		(pts
+			(xy 201.93 44.45) (xy 218.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213e7a1a-d52c-4594-9540-248941e3b065")
+	)
+	(bus
+		(pts
+			(xy 85.09 139.7) (xy 85.09 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374a30be-719d-4dbf-b08f-cd93cc222ab7")
+	)
+	(bus
+		(pts
+			(xy 83.82 105.41) (xy 83.82 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d3fdb3-4add-45fb-bb1f-841a1abb747b")
+	)
+	(bus
+		(pts
+			(xy 114.3 31.75) (xy 218.44 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f306570-8e53-4cab-b061-e06af39619e7")
+	)
+	(bus
+		(pts
+			(xy 63.5 99.06) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417f1d09-89b7-427b-82d1-6f6b649ac9ba")
+	)
+	(bus
+		(pts
+			(xy 104.14 120.65) (xy 104.14 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498abfcd-ed09-4532-bb8c-130edc4f2609")
+	)
+	(bus
+		(pts
+			(xy 218.44 50.8) (xy 209.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea1ec56-1dc9-4c94-aa4d-0b8ece1629ca")
+	)
+	(bus
+		(pts
+			(xy 104.14 25.4) (xy 218.44 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5474b9e2-5d5e-45f6-95cc-d4f8cc4f9c1d")
+	)
+	(bus
+		(pts
+			(xy 63.5 139.7) (xy 85.09 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1d6167-6f71-416d-9af6-9327390fc2ec")
+	)
+	(bus
+		(pts
+			(xy 63.5 105.41) (xy 83.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c33ec1-d6fe-4599-8228-63f881415cb8")
+	)
+	(bus
+		(pts
+			(xy 201.93 133.35) (xy 201.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed99457-5ae8-44d4-9eb1-9bb048c77577")
+	)
+	(bus
+		(pts
+			(xy 73.66 149.86) (xy 73.66 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810a2118-e498-43a4-8471-4ca8b579ad16")
+	)
+	(bus
+		(pts
+			(xy 63.5 133.35) (xy 201.93 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9534b6ed-b0d5-4771-9012-60b2894b4fa7")
+	)
+	(bus
+		(pts
+			(xy 90.17 111.76) (xy 63.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac019da-d8ed-4485-9d79-23d1a0efafd4")
+	)
+	(bus
+		(pts
+			(xy 85.09 170.18) (xy 137.16 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33b024e-72b8-41b6-a88b-83206cba0355")
+	)
+	(bus
+		(pts
+			(xy 63.5 39.37) (xy 90.17 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52cf348-a344-401e-a3ca-f8a7e23921b6")
+	)
+	(bus
+		(pts
+			(xy 83.82 31.75) (xy 63.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5878e97-a21b-47ce-8916-7c39c934df93")
+	)
+	(bus
+		(pts
+			(xy 201.93 107.95) (xy 201.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18abe23-9544-4487-8a9a-1231fd8e4868")
+	)
+	(bus
+		(pts
+			(xy 191.77 46.99) (xy 191.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b8428a-a3fd-4b41-a9ad-80b39f317e82")
+	)
+	(bus
+		(pts
+			(xy 209.55 50.8) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86105da-20cf-467d-81a4-97ce98da63e0")
+	)
+	(bus
+		(pts
+			(xy 218.44 107.95) (xy 201.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04eb9ff-722b-40fe-b8f9-7f52c39a0b03")
+	)
+	(bus
+		(pts
+			(xy 63.5 127) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34aaa9d-aae3-4131-a335-dec662d80c41")
+	)
+	(bus
+		(pts
+			(xy 78.74 175.26) (xy 137.16 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5221797-650b-4f0c-a25c-744da3edab3e")
+	)
+	(bus
+		(pts
+			(xy 63.5 144.78) (xy 78.74 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c8d909-a342-4276-a62d-33b64431395e")
+	)
+	(bus
+		(pts
+			(xy 73.66 180.34) (xy 137.16 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc60262b-d038-4b60-8033-3814b1eafabc")
+	)
+	(bus
+		(pts
+			(xy 209.55 114.3) (xy 218.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d931dca4-7622-4ba0-a502-db8d97afc842")
+	)
+	(bus
+		(pts
+			(xy 78.74 144.78) (xy 78.74 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2eb6fb3-3d31-40fb-bd6d-b819313fa38a")
+	)
+	(bus
+		(pts
+			(xy 191.77 120.65) (xy 218.44 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e739bd8e-aa28-43b4-915a-6c0446a9d8ca")
+	)
+	(bus
+		(pts
+			(xy 73.66 25.4) (xy 63.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7de74cd-abe0-4d19-aa5e-675aefb93fdb")
+	)
+	(bus
+		(pts
+			(xy 90.17 39.37) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9a5ea1-ff90-4f0e-8d5c-a8f46a689358")
+	)
+	(sheet
+		(at 18.415 95.25)
+		(size 45.085 57.15)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3819b517-91f5-4c26-9360-680e98a2399c")
+		(property "Sheetname" "DATA FLOW CONTROL"
+			(at 18.415 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DATA_FLOW_CONTROL.kicad_sch"
+			(at 18.415 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOCAL_D[0..7]" bidirectional
+			(at 63.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "25c3761d-c16c-4482-abff-032dc4c0f2c2")
+		)
+		(pin "LOCAL_A[0..15]" bidirectional
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2af009a3-a6ad-4bf9-abb6-ff7bc708d85d")
+		)
+		(pin "{Z80_CONTROL}" bidirectional
+			(at 63.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "39784ca5-cf02-4633-9378-e8dc65bffbe7")
+		)
+		(pin "LEVEL_D[0..7]" bidirectional
+			(at 63.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72d926be-9ef8-46d1-ad49-83eb914e50c3")
+		)
+		(pin "LEVEL_A[0..15]" bidirectional
+			(at 63.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "58160740-c4fe-4003-8907-26fbf068caa6")
+		)
+		(pin "{Z80_CONTROL_OUT}" bidirectional
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab036135-f04b-4bf1-9aa7-d3a48a297bda")
+		)
+		(pin "{Z80_CONTROL_LEVEL}" bidirectional
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "caf558f7-6ff5-411d-a9fe-069ba019e165")
+		)
+		(pin "Z80_A[0..15]" bidirectional
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72558cdb-e9db-4cf6-942f-1b1013fc0042")
+		)
+		(pin "Z80_D[0..7]" bidirectional
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a336014-54b0-43a6-ae77-414a9bffd0c8")
+		)
+		(instances
+			(project "FujiNet_5.0"
+				(path "/3f4c9c6f-2a2f-4b07-95a4-300eafec0cc9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 95.25)
+		(size 56.515 63.5)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77b39b7d-8cf6-4059-851d-f3b7e070a985")
+		(property "Sheetname" "ESP-32 Module"
+			(at 218.44 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP-32_Module.kicad_sch"
+			(at 218.44 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ROM_ACCESS_A[16..18]" input
+			(at 218.44 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "234713e7-3221-4096-aa6a-b105db8efe8a")
+		)
+		(pin "{Z80_CONTROL}" input
+			(at 218.44 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f02852f6-872b-4f18-befb-778f7c4a1a71")
+		)
+		(pin "{ESP_SPI}" input
+			(at 218.44 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24c08ea2-cdb1-42f0-ac8c-01926ae2caf5")
+		)
+		(instances
+			(project "FujiNet_5.0"
+				(path "/3f4c9c6f-2a2f-4b07-95a4-300eafec0cc9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 18.415)
+		(size 56.515 57.785)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1fc653d-53e5-4026-a1f1-1de1c7ce3f12")
+		(property "Sheetname" "Sipeed Nano 20K"
+			(at 218.44 17.7034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sipeed_Nano_20K.kicad_sch"
+			(at 218.44 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ESP_SPI}" input
+			(at 218.44 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a98defb-4f95-4bb3-9b47-d087168bea3b")
+		)
+		(pin "{Z80_CONTROL}" input
+			(at 218.44 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "03d98d27-382e-441b-bac4-67ee97217965")
+		)
+		(pin "LOCAL_A[0..15]" input
+			(at 218.44 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2647d7af-8ab8-46a2-9f3a-55c0691b6c79")
+		)
+		(pin "ROM_D[0..7]" input
+			(at 218.44 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0cb9b491-151f-48dc-b4e5-556cd818c775")
+		)
+		(instances
+			(project "FujiNet_5.0"
+				(path "/3f4c9c6f-2a2f-4b07-95a4-300eafec0cc9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 165.1)
+		(size 38.1 29.845)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da538b34-03c1-4694-becc-e452b358138d")
+		(property "Sheetname" "Misc"
+			(at 137.16 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Misc.kicad_sch"
+			(at 137.16 195.5296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{Z80_CONTROL_OUT}" bidirectional
+			(at 137.16 180.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5367ef7a-4930-4d42-b377-5eb08b7ae20b")
+		)
+		(pin "Z80_D[0..7]" bidirectional
+			(at 137.16 175.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3797cbc9-a2fb-4c55-aa45-75eb8da2c24a")
+		)
+		(pin "Z80_A[0..15]" bidirectional
+			(at 137.16 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5dee2e84-dd64-4fe3-802b-896312c1c456")
+		)
+		(instances
+			(project "FujiNet_5.0"
+				(path "/3f4c9c6f-2a2f-4b07-95a4-300eafec0cc9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 18.415)
+		(size 45.72 58.42)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5c6edd0-e00d-4cd9-84d8-e97bc3b54145")
+		(property "Sheetname" "ROM MODULE"
+			(at 17.78 17.7034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RIO_DECODER.kicad_sch"
+			(at 17.78 77.4196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ROM_D[0..7]" input
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "653750be-1338-4c02-8acc-ac0aaa138b72")
+		)
+		(pin "ROM_ACCESS_A[16..18]" input
+			(at 63.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0e81586c-01ab-4d9b-beca-d4a22d13ab7c")
+		)
+		(pin "LEVEL_A[0..15]" input
+			(at 63.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2ab031de-9547-4770-b112-4cf8cbe5e56a")
+		)
+		(pin "{Z80_CONTROL_LEVEL}" input
+			(at 63.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4bbf9e9-3480-458c-b306-3062cb90a8ab")
+		)
+		(instances
+			(project "FujiNet_5.0"
+				(path "/3f4c9c6f-2a2f-4b07-95a4-300eafec0cc9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
