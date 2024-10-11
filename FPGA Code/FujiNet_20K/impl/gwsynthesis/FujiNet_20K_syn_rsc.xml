@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="FujiNet_Top" Register="16">
+ <SubModule name="ESP32_Communication" Register="42" Alu="15" Lut="41"/>
+ <SubModule name="Z80_Communication" Register="41" Alu="14" Lut="24"/>
+</Module>

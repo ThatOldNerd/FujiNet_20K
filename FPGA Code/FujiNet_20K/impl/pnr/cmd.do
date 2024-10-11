@@ -1,0 +1,12 @@
+-d E:\Dads_Files\FujiNet_20K\impl\gwsynthesis\FujiNet_20K.vg
+-p GW2AR-18C-QFN88-8
+-pn GW2AR-LV18QN88C8/I7
+-cst E:\Dads_Files\FujiNet_20K\src\FujiNet_20K.cst
+-cfg E:\Dads_Files\FujiNet_20K\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

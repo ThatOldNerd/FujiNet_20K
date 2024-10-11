@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "E:/Dads_Files/FujiNet_20K/src/FujiNet_Top.v",
+  "InstLine" : 1,
+  "InstName" : "FujiNet_Top",
+  "ModuleFile" : "E:/Dads_Files/FujiNet_20K/src/FujiNet_Top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "FujiNet_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/Dads_Files/FujiNet_20K/src/FujiNet_Top.v",
+    "InstLine" : 36,
+    "InstName" : "ESP32_Communication",
+    "ModuleFile" : "E:/Dads_Files/FujiNet_20K/src/ESP32_SPI.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "ESP32_SPI_slave"
+   },
+   {
+    "InstFile" : "E:/Dads_Files/FujiNet_20K/src/FujiNet_Top.v",
+    "InstLine" : 49,
+    "InstName" : "Z80_Communication",
+    "ModuleFile" : "E:/Dads_Files/FujiNet_20K/src/Z80_Access.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "Z80_Access"
+   }
+  ]
+ }
+]
