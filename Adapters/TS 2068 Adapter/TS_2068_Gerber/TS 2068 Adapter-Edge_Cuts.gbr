@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*%
+%TF.CreationDate,2024-10-04T15:35:42-04:00*%
+%TF.ProjectId,TS 2068 Adapter,54532032-3036-4382-9041-646170746572,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2024-10-04 15:35:42*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X56600000Y-90876000D02*
+X146600000Y-90876000D01*
+X146600000Y-150876000D01*
+X56600000Y-150876000D01*
+X56600000Y-90876000D01*
+M02*
